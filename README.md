@@ -1,4 +1,7 @@
 # terraform-iaac-august-2020
+### This module creates azure-vm-scale-set
+
+```
 module "ss" {
     source                  = "Zulfiya0616/aks/ss"
     resource_group_name     = "example-resources"
@@ -16,3 +19,5 @@ module "ss" {
     os_sku                  = "16.04-LTS"
     os_version              = "latest"
 }
+
+```
