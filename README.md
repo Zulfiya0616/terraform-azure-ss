@@ -1,5 +1,4 @@
 # terraform-iaac-august-2020
-
 module "ss" {
     source                  = "Zulfiya0616/aks/ss"
     resource_group_name     = "example-resources"
